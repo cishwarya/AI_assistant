@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INS Assist</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="widget">
+    <header class="widget__header">
+      <div class="widget__brand">
+        <span class="widget__logo">INS</span>
+        <div>
+          <div class="widget__title">INS Assist</div>
+          <div class="widget__subtitle">Support chat</div>
+        </div>
+      </div>
+    </header>
+
+    <main class="widget__messages" id="messages"></main>
+
+    <form class="widget__composer" id="composer">
+      <input
+        type="text"
+        id="input"
+        placeholder="Ask about hosting, domains, email…"
+        autocomplete="off"
+        required
+      />
+      <button type="submit" id="send-btn" aria-label="Send message">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 11.5L21 3L13 21L11 13L3 11.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
