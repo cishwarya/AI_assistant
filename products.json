@@ -1,0 +1,105 @@
+{
+  "brand": "INS",
+  "assistant_name": "INS Assist",
+  "products": [
+    {
+      "id": "hosting-business",
+      "name": "Web Hosting Business",
+      "category": "Web Hosting",
+      "price": "€8/month",
+      "summary": "Higher-performance hosting with more resources, staging and daily backups.",
+      "best_for": "Growing sites that have outgrown a starter plan.",
+      "upsell_triggers": ["slow under load", "traffic spike", "outgrew plan", "need more resources", "downtime"]
+    },
+    {
+      "id": "cdn-plus",
+      "name": "CDN + Performance Pack",
+      "category": "Performance",
+      "price": "€5/month",
+      "summary": "Global content delivery network and caching to speed up load times worldwide.",
+      "best_for": "Sites slow for international visitors or heavy on images/video.",
+      "upsell_triggers": ["slow", "slow abroad", "load time", "heavy images", "international visitors", "page speed"]
+    },
+    {
+      "id": "managed-wordpress",
+      "name": "Managed WordPress",
+      "category": "Web Hosting",
+      "price": "€12/month",
+      "summary": "WordPress hosting with automatic updates, caching and built-in security.",
+      "best_for": "WordPress users who want speed and security handled for them.",
+      "upsell_triggers": ["wordpress slow", "plugin conflict", "wp updates", "wp-admin", "wordpress security"]
+    },
+    {
+      "id": "vps-m",
+      "name": "VPS M (Virtual Server)",
+      "category": "Servers",
+      "price": "€15/month",
+      "summary": "Dedicated CPU and RAM with root access for full control and scaling.",
+      "best_for": "Traffic-heavy or custom apps that need guaranteed resources.",
+      "upsell_triggers": ["shared hosting limits", "high traffic", "custom app", "root access", "scale up"]
+    },
+    {
+      "id": "pro-email",
+      "name": "Professional Email",
+      "category": "Email",
+      "price": "€1/mailbox/month",
+      "summary": "Business email at your own domain (you@yourbusiness.de) with 2 GB per mailbox.",
+      "best_for": "Businesses still using free @gmail/@gmx addresses.",
+      "upsell_triggers": ["gmail", "gmx", "free email", "unprofessional email", "email at my domain", "business email"]
+    },
+    {
+      "id": "m365",
+      "name": "Microsoft 365 Business",
+      "category": "Email",
+      "price": "€6/user/month",
+      "summary": "Outlook, Teams, Word and Excel plus business email at your domain.",
+      "best_for": "Teams that want email plus the full Office suite.",
+      "upsell_triggers": ["office suite", "outlook", "teams", "collaboration", "shared calendar"]
+    },
+    {
+      "id": "ssl-wildcard",
+      "name": "Wildcard SSL Certificate",
+      "category": "Security",
+      "price": "€6/month",
+      "summary": "Encrypts your whole domain and subdomains; shows the padlock and builds trust.",
+      "best_for": "Sites collecting logins or payments, or showing 'not secure' warnings.",
+      "upsell_triggers": ["not secure", "no padlock", "https", "certificate", "ssl", "security warning"]
+    },
+    {
+      "id": "site-scan",
+      "name": "Site Scan & Repair",
+      "category": "Security",
+      "price": "€7/month",
+      "summary": "Daily malware scanning with automatic clean-up and firewall.",
+      "best_for": "Sites that were hacked or want proactive protection.",
+      "upsell_triggers": ["hacked", "malware", "defaced", "virus", "suspicious files", "blacklisted"]
+    },
+    {
+      "id": "backup-plus",
+      "name": "Server Backup",
+      "category": "Data Protection",
+      "price": "€4/month",
+      "summary": "Automated daily backups with one-click restore.",
+      "best_for": "Anyone without a reliable recovery point.",
+      "upsell_triggers": ["lost data", "no backup", "restore", "deleted files", "recover"]
+    },
+    {
+      "id": "ecommerce-plus",
+      "name": "Online Store (eCommerce)",
+      "category": "Website Builder",
+      "price": "€20/month",
+      "summary": "Sell online with product listings, payments and shipping built in.",
+      "best_for": "Sites that want to start selling products.",
+      "upsell_triggers": ["sell online", "shop", "store", "products", "checkout", "payments"]
+    },
+    {
+      "id": "rankup-seo",
+      "name": "rankingCoach (SEO)",
+      "category": "Marketing",
+      "price": "€10/month",
+      "summary": "Step-by-step SEO tool to improve Google ranking and visibility.",
+      "best_for": "Sites that aren't showing up on Google.",
+      "upsell_triggers": ["not on google", "seo", "ranking", "low visibility", "no visitors"]
+    }
+  ]
+}
