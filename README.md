@@ -1,4 +1,4 @@
-# INS Assist — Support-to-Sales Chat Widget
+# INS Assist: Support-to-Sales Chat Widget
 
 A chat widget for a European cloud/hosting/domains provider. It answers a
 customer's support question first, then — only if genuinely relevant —
