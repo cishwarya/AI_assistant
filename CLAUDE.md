@@ -1,14 +1,14 @@
-# IONOS Assist — Support-to-Sales Chat Widget
+# AI Assist - Support-to-Sales Chat Widget
 
 ## What we're building
-A web chat widget for IONOS (European cloud/hosting/domains provider) that
-answers a customer's support question FIRST, then — only if genuinely relevant —
-surfaces ONE soft product recommendation. Support first, upsell second.
+A web chat widget for European cloud/hosting/domains provider that
+answers a customer's support question, then if relevant —
+surfaces one soft product recommendation. Support first, upsell second.
 
 ## Stack (keep it simple)
 - Node + Express backend (server.js) that holds the Anthropic API key in an
   env var and exposes POST /api/chat. The key must never reach the frontend.
-- Static frontend (public/): a clean, IONOS-style blue/white chat UI.
+- Static frontend (public/): a clean, blue/white chat UI.
 - Model: claude-sonnet-4-6, max_tokens 1024.
 
 ## Behaviour contract
